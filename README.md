@@ -13,3 +13,6 @@
 3.1.5
 服务消费者-9091
 服务发现-Eureka客户端完成，服务消费-Ribbon
+
+服务续约
+[!image](picture/Eureka服务续约.png)
