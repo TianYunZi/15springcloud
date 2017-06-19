@@ -15,4 +15,4 @@
 服务发现-Eureka客户端完成，服务消费-Ribbon
 
 服务续约
-[!image](picture/Eureka服务续约.png)
+[!image](https://github.com/TianYunZi/15springcloud/blob/master/picture/Eureka%E6%9C%8D%E5%8A%A1%E7%BB%AD%E7%BA%A6.png)
