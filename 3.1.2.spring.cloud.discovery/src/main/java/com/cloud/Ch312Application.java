@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /**
  * Created by XJX on 2017/6/18.
  */
-@EnableDiscoveryClient
+@EnableDiscoveryClient//客户端
 @SpringBootApplication
 public class Ch312Application {
 

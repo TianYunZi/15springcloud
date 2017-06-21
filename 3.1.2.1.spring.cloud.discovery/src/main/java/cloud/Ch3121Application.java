@@ -9,9 +9,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class Ch312Application {
+public class Ch3121Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(Ch312Application.class, args);
+        SpringApplication.run(Ch3121Application.class, args);
     }
 }

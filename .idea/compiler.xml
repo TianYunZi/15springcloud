@@ -13,6 +13,10 @@
         <module name="3.1.3.spring-cloud-high-avaliable-peer01" />
         <module name="3.1.4.spring-cloud-high-avaliable-peer02" />
         <module name="3.1.5.spring-cloud-ribbon-consumer" />
+        <module name="springcloudhystrix" />
+        <module name="springcloudredis" />
+        <module name="springcloudweb" />
+        <module name="springcloudzuulgateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +28,10 @@
       <module name="3.1.3.spring-cloud-high-avaliable-peer01" target="1.8" />
       <module name="3.1.4.spring-cloud-high-avaliable-peer02" target="1.8" />
       <module name="3.1.5.spring-cloud-ribbon-consumer" target="1.8" />
+      <module name="springcloudhystrix" target="1.8" />
+      <module name="springcloudredis" target="1.8" />
+      <module name="springcloudweb" target="1.8" />
+      <module name="springcloudzuulgateway" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

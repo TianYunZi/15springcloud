@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 /**
  * Created by XJX on 2017/6/18.
  */
@@ -20,8 +22,15 @@ public class HelloController {
     private DiscoveryClient discoveryClient;
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String index() {
+    public String index() throws InterruptedException {
         ServiceInstance instance = discoveryClient.getLocalServiceInstance();
+
+        //5.1.1添加
+        //让线程等待处理几秒钟
+        int sleepTime = ThreadLocalRandom.current().nextInt(3000);
+        logger.info("SleepTime: " + sleepTime);
+//        Thread.sleep(sleepTime);
+
         logger.info("/hello, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
         return "Hello world!";
     }

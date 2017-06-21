@@ -16,6 +16,10 @@
         <module>3.1.4.spring-cloud-high-avaliable-peer02</module>
         <module>3.1.2.1.spring.cloud.discovery</module>
         <module>3.1.5.spring-cloud-ribbon-consumer</module>
+        <module>5.1.1.spring-cloud.hystrix</module>
+        <module>7.1.1.spring-cloud-zuul-gateway</module>
+        <module>5.1.2.spring-cloud-web</module>
+        <module>5.1.3.spring-cloud-redis</module>
     </modules>
 
 
