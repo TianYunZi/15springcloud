@@ -34,8 +34,11 @@ public class PersonDAO {
             json = JacksonSerilization.writeValueAsString(person);
         } catch (JsonProcessingException e) {
             logger.debug("对象序列化成json异常：" + e.getMessage(), e);
+        } catch (NullPointerException e) {
+            logger.debug("传入的参数为空：" + e.getMessage(), e);
         }
         valueOperations.set("sessionId", json, 1L, TimeUnit.DAYS);
+        logger.info("Session Id对应的值成功保存到Redis中");
     }
 
     public Person getPerson() {

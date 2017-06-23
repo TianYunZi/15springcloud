@@ -3,7 +3,9 @@ package com.boot.controller;
 import com.boot.dto.Person;
 import com.boot.service.RedisSessionService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,8 +21,9 @@ public class RedisServerController {
     private RedisSessionService redisSessionService;
 
     @ResponseBody
-    @RequestMapping("/session")
-    public Person getSessionId(HttpServletRequest request){
+    @RequestMapping(value = "/session", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType
+            .APPLICATION_JSON_VALUE, method = RequestMethod.POST)
+    public Person getSessionId(HttpServletRequest request) {
         Person sessionBody = redisSessionService.getSessionBody(request);
         return sessionBody;
     }
