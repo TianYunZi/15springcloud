@@ -9,12 +9,13 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/TianYunZi/15springcloud/config-repo
-          repos:
-            - patterns: multi-repo-demo-*
-              uri: https://github.com/TianYunZi/15springcloud/config-repo
-          username:
-          password:
+          uri: https://github.com/TianYunZi/15springcloud.git
+          search-paths: 8.1.1.spring.cloud.config
+#          repos:
+#            - patterns: multi-repo-demo-*
+#              uri: https://github.com/TianYunZi/15springcloud/config-repo
+#          username:
+#          password:
 
 server:
   port: 9110
