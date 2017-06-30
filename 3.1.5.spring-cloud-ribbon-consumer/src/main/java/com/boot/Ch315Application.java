@@ -2,6 +2,7 @@ package com.boot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
@@ -11,6 +12,7 @@ import org.springframework.web.client.RestTemplate;
  * Created by XJX on 2017/6/18.
  */
 @EnableDiscoveryClient//Eureka客户端
+@EnableCircuitBreaker//断路器
 @SpringBootApplication
 public class Ch315Application {
 

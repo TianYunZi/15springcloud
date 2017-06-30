@@ -7,6 +7,7 @@
     <groupId>org.chapter03</groupId>
     <artifactId>spring-cloud-high-avaliable-peer01</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -38,6 +39,11 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <!--open-->
+        <!--热部署-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-devtools</artifactId>-->
+        <!--</dependency>-->
     </dependencies>
 
     <dependencyManagement>
@@ -53,4 +59,23 @@
         </dependencies>
     </dependencyManagement>
 
+    <!--生成jar-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.boot.Ch313Application</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal><!--使用parent不需要-->
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

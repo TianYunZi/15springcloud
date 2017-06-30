@@ -13,6 +13,11 @@
         <module name="3.1.3.spring-cloud-high-avaliable-peer01" />
         <module name="3.1.4.spring-cloud-high-avaliable-peer02" />
         <module name="3.1.5.spring-cloud-ribbon-consumer" />
+        <module name="5.1.4.spring-cloud-turbine" />
+        <module name="5.1.5.spring-cloud-turbine.amqp" />
+        <module name="6.1.1.spring-cloud-feign" />
+        <module name="8.1.1.spring.cloud.config" />
+        <module name="helloserviceapi" />
         <module name="springcloudhystrix" />
         <module name="springcloudredis" />
         <module name="springcloudweb" />
@@ -28,6 +33,11 @@
       <module name="3.1.3.spring-cloud-high-avaliable-peer01" target="1.8" />
       <module name="3.1.4.spring-cloud-high-avaliable-peer02" target="1.8" />
       <module name="3.1.5.spring-cloud-ribbon-consumer" target="1.8" />
+      <module name="5.1.4.spring-cloud-turbine" target="1.8" />
+      <module name="5.1.5.spring-cloud-turbine.amqp" target="1.8" />
+      <module name="6.1.1.spring-cloud-feign" target="1.8" />
+      <module name="8.1.1.spring.cloud.config" target="1.8" />
+      <module name="helloserviceapi" target="1.8" />
       <module name="springcloudhystrix" target="1.8" />
       <module name="springcloudredis" target="1.8" />
       <module name="springcloudweb" target="1.8" />

@@ -11,6 +11,11 @@
     <file url="file://$PROJECT_DIR$/5.1.1.spring-cloud.hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/5.1.2.spring-cloud-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/5.1.3.spring-cloud-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5.1.4.spring-cloud-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5.1.5.spring-cloud-turbine.amqp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6.1.1.spring-cloud-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/6.1.2.hello-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/7.1.1.spring-cloud-zuul-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/8.1.1.spring.cloud.config" charset="UTF-8" />
   </component>
 </project>
