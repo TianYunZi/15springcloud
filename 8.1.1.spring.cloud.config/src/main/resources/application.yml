@@ -1,0 +1,22 @@
+info:
+  component: Config Server
+spring:
+  application:
+    name: config-server
+  jmx:
+    default_domain: cloud.config.server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/TianYunZi/15springcloud/config-repo
+          repos:
+            - patterns: multi-repo-demo-*
+              uri: https://github.com/TianYunZi/15springcloud/config-repo
+          username:
+          password:
+
+server:
+  port: 9110
+#management:
+#  context_path: /admin
