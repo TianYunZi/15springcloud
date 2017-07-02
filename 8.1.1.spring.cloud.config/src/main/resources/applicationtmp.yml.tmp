@@ -7,8 +7,8 @@
 #        git:
 #          uri: https://github.com/TianYunZi/15springcloudconfig
 #          search-paths: repo
-#          username: TianYunZi
-#          password: 20150130TUESDAy
+#          username: 
+#          password: 
 #      label: master
 #
 #server:
