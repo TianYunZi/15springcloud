@@ -54,5 +54,19 @@ Spring-Cloud-Feign-9100
 Zuul网关-9096
 
 ##8.1.1
-配置中心-9110
+配置中心-9110（未完成）
+
+##9.1.1
+Spring-Boot-RabbitMq-9111
+
+##10.1.1
+Spring-Cloud-Stream-RabbitMq-9120
+
+##11.1.1
+Spring-Cloud-Sleuth-9130
+微服务应用trace-1，调用trace-2
+
+##11.1.2
+Spring-Cloud-Sleuth-9131
+微服务应用trace-2
 

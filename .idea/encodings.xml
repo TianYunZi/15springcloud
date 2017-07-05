@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/0.0.1.spring-cloud-start" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10.1.1.spring-cloud-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11.1.1.spring-cloud-sleuth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11.1.2.spring-cloud-sleuth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/3.1.1.eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/3.1.2.1.spring.cloud.discovery" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/3.1.2.spring.cloud.discovery" charset="UTF-8" />
@@ -17,5 +20,6 @@
     <file url="file://$PROJECT_DIR$/6.1.2.hello-service-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/7.1.1.spring-cloud-zuul-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/8.1.1.spring.cloud.config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/9.1.1.spring-boot-rabbitmq" charset="UTF-8" />
   </component>
 </project>

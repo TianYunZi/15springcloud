@@ -25,6 +25,10 @@
         <module>6.1.1.spring-cloud-feign</module>
         <module>6.1.2.hello-service-api</module>
         <module>8.1.1.spring.cloud.config</module>
+        <module>9.1.1.spring-boot-rabbitmq</module>
+        <module>10.1.1.spring-cloud-stream</module>
+        <module>11.1.1.spring-cloud-sleuth</module>
+        <module>11.1.2.spring-cloud-sleuth</module>
     </modules>
 
 

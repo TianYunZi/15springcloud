@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="0.0.1.spring-cloud-start" />
+        <module name="10.1.1.spring-cloud-stream" />
+        <module name="11.1.1.spring-cloud-sleuth" />
+        <module name="11.1.2.spring-cloud-sleuth" />
         <module name="3.1.1.eureka-server" />
         <module name="3.1.2.1.spring.cloud.discovery" />
         <module name="3.1.2.spring.cloud.discovery" />
@@ -17,6 +20,7 @@
         <module name="5.1.5.spring-cloud-turbine.amqp" />
         <module name="6.1.1.spring-cloud-feign" />
         <module name="8.1.1.spring.cloud.config" />
+        <module name="9.1.1.spring-boot-rabbitmq" />
         <module name="helloserviceapi" />
         <module name="springcloudhystrix" />
         <module name="springcloudredis" />
@@ -26,6 +30,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="0.0.1.spring-cloud-start" target="1.8" />
+      <module name="10.1.1.spring-cloud-stream" target="1.8" />
+      <module name="11.1.1.spring-cloud-sleuth" target="1.8" />
+      <module name="11.1.2.spring-cloud-sleuth" target="1.8" />
       <module name="15springcloud" target="1.5" />
       <module name="3.1.1.eureka-server" target="1.8" />
       <module name="3.1.2.1.spring.cloud.discovery" target="1.8" />
@@ -37,6 +44,7 @@
       <module name="5.1.5.spring-cloud-turbine.amqp" target="1.8" />
       <module name="6.1.1.spring-cloud-feign" target="1.8" />
       <module name="8.1.1.spring.cloud.config" target="1.8" />
+      <module name="9.1.1.spring-boot-rabbitmq" target="1.8" />
       <module name="helloserviceapi" target="1.8" />
       <module name="springcloudhystrix" target="1.8" />
       <module name="springcloudredis" target="1.8" />

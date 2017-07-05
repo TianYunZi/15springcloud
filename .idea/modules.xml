@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/0.0.1.spring-cloud-start/0.0.1.spring-cloud-start.iml" filepath="$PROJECT_DIR$/0.0.1.spring-cloud-start/0.0.1.spring-cloud-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.1.1.spring-cloud-stream/10.1.1.spring-cloud-stream.iml" filepath="$PROJECT_DIR$/10.1.1.spring-cloud-stream/10.1.1.spring-cloud-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11.1.1.spring-cloud-sleuth/11.1.1.spring-cloud-sleuth.iml" filepath="$PROJECT_DIR$/11.1.1.spring-cloud-sleuth/11.1.1.spring-cloud-sleuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11.1.2.spring-cloud-sleuth/11.1.2.spring-cloud-sleuth.iml" filepath="$PROJECT_DIR$/11.1.2.spring-cloud-sleuth/11.1.2.spring-cloud-sleuth.iml" />
       <module fileurl="file://$PROJECT_DIR$/15springcloud.iml" filepath="$PROJECT_DIR$/15springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.1.1.eureka-server/3.1.1.eureka-server.iml" filepath="$PROJECT_DIR$/3.1.1.eureka-server/3.1.1.eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.1.2.1.spring.cloud.discovery/3.1.2.1.spring.cloud.discovery.iml" filepath="$PROJECT_DIR$/3.1.2.1.spring.cloud.discovery/3.1.2.1.spring.cloud.discovery.iml" />
@@ -14,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/5.1.5.spring-cloud-turbine.amqp/5.1.5.spring-cloud-turbine.amqp.iml" filepath="$PROJECT_DIR$/5.1.5.spring-cloud-turbine.amqp/5.1.5.spring-cloud-turbine.amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/6.1.1.spring-cloud-feign/6.1.1.spring-cloud-feign.iml" filepath="$PROJECT_DIR$/6.1.1.spring-cloud-feign/6.1.1.spring-cloud-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/8.1.1.spring.cloud.config/8.1.1.spring.cloud.config.iml" filepath="$PROJECT_DIR$/8.1.1.spring.cloud.config/8.1.1.spring.cloud.config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9.1.1.spring-boot-rabbitmq/9.1.1.spring-boot-rabbitmq.iml" filepath="$PROJECT_DIR$/9.1.1.spring-boot-rabbitmq/9.1.1.spring-boot-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/6.1.2.hello-service-api/helloserviceapi.iml" filepath="$PROJECT_DIR$/6.1.2.hello-service-api/helloserviceapi.iml" />
       <module fileurl="file://$PROJECT_DIR$/5.1.1.spring-cloud.hystrix/springcloudhystrix.iml" filepath="$PROJECT_DIR$/5.1.1.spring-cloud.hystrix/springcloudhystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/5.1.3.spring-cloud-redis/springcloudredis.iml" filepath="$PROJECT_DIR$/5.1.3.spring-cloud-redis/springcloudredis.iml" />
