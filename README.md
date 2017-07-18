@@ -70,3 +70,11 @@ Spring-Cloud-Sleuth-9130
 Spring-Cloud-Sleuth-9131
 微服务应用trace-2
 
+##【注】eureka显示IP及点击链接跳转
+eureka.instance.lease-renewal-interval-in-seconds=1
+eureka.instance.lease-expiration-duration-in-seconds=1
+eureka.instance.prefer-ip-address=true
+eureka.instance.instance-id=${spring.cloud.client.ipAddress}:${server.port}
+eureka.instance.status-page-url=http://${spring.cloud.client.ipAddress}:${server.port}/swagger-ui.html
+eureka.instance.health-check-url=http://${spring.cloud.client.ipAddress}:${server.port}/health
+
