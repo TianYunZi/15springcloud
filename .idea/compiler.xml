@@ -16,6 +16,7 @@
         <module name="3.1.3.spring-cloud-high-avaliable-peer01" />
         <module name="3.1.4.spring-cloud-high-avaliable-peer02" />
         <module name="3.1.5.spring-cloud-ribbon-consumer" />
+        <module name="5.1.2.spring-cloud.hystrix.test" />
         <module name="5.1.4.spring-cloud-turbine" />
         <module name="5.1.5.spring-cloud-turbine.amqp" />
         <module name="6.1.1.spring-cloud-feign" />
@@ -40,6 +41,7 @@
       <module name="3.1.3.spring-cloud-high-avaliable-peer01" target="1.8" />
       <module name="3.1.4.spring-cloud-high-avaliable-peer02" target="1.8" />
       <module name="3.1.5.spring-cloud-ribbon-consumer" target="1.8" />
+      <module name="5.1.2.spring-cloud.hystrix.test" target="1.8" />
       <module name="5.1.4.spring-cloud-turbine" target="1.8" />
       <module name="5.1.5.spring-cloud-turbine.amqp" target="1.8" />
       <module name="6.1.1.spring-cloud-feign" target="1.8" />

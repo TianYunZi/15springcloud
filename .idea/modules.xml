@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/3.1.3.spring-cloud-high-avaliable-peer01/3.1.3.spring-cloud-high-avaliable-peer01.iml" filepath="$PROJECT_DIR$/3.1.3.spring-cloud-high-avaliable-peer01/3.1.3.spring-cloud-high-avaliable-peer01.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.1.4.spring-cloud-high-avaliable-peer02/3.1.4.spring-cloud-high-avaliable-peer02.iml" filepath="$PROJECT_DIR$/3.1.4.spring-cloud-high-avaliable-peer02/3.1.4.spring-cloud-high-avaliable-peer02.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.1.5.spring-cloud-ribbon-consumer/3.1.5.spring-cloud-ribbon-consumer.iml" filepath="$PROJECT_DIR$/3.1.5.spring-cloud-ribbon-consumer/3.1.5.spring-cloud-ribbon-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.1.2.spring-cloud.hystrix.test/5.1.2.spring-cloud.hystrix.test.iml" filepath="$PROJECT_DIR$/5.1.2.spring-cloud.hystrix.test/5.1.2.spring-cloud.hystrix.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/5.1.4.spring-cloud-turbine/5.1.4.spring-cloud-turbine.iml" filepath="$PROJECT_DIR$/5.1.4.spring-cloud-turbine/5.1.4.spring-cloud-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/5.1.5.spring-cloud-turbine.amqp/5.1.5.spring-cloud-turbine.amqp.iml" filepath="$PROJECT_DIR$/5.1.5.spring-cloud-turbine.amqp/5.1.5.spring-cloud-turbine.amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/6.1.1.spring-cloud-feign/6.1.1.spring-cloud-feign.iml" filepath="$PROJECT_DIR$/6.1.1.spring-cloud-feign/6.1.1.spring-cloud-feign.iml" />

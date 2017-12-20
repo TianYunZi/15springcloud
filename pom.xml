@@ -29,6 +29,7 @@
         <module>10.1.1.spring-cloud-stream</module>
         <module>11.1.1.spring-cloud-sleuth</module>
         <module>11.1.2.spring-cloud-sleuth</module>
+        <module>5.1.2.spring-cloud.hystrix.test</module>
     </modules>
 
 
